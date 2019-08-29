@@ -70,10 +70,6 @@ p {
 	text-decoration: italic;
 }
 }
-	
-img {
-	display: none;
-}
 
 /*footer */
 footer {
@@ -184,6 +180,17 @@ footer {
 	#session_remember_me {
 		width: auto;
 		margin-left: 0;
+	}
+
+	/* Users index */
+	.users {
+		list-style: none;
+		margine: 0;
+		li {
+			overflow: auto;
+			padding: 10px 0;
+			border-bottom: 1px solid $gray-lighter;
+		}
 	}
 
 }
