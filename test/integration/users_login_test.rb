@@ -19,7 +19,7 @@ class UsersLoginTest < ActionDispatch::IntegrationTest
   test "login confirmation and log out" do
   	get login_path
   	post login_url, params: { session: { email: "@user.email", password: "password" }}
-  	#assert is_logged_in?
+  	assert is_logged_in?
     assert_redirected_to @user
   	follow_redirect!
   	assert_template 'users/show'
