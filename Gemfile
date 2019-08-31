@@ -17,7 +17,8 @@ gem 'jquery-rails', '~> 4.3.5'
 gem 'faker', '~>2.2.0'
 gem 'will_paginate', '~>3.1.8'
 gem 'bootstrap-will_paginate', '~>1.0.0'
-
+gem 'carrierwave', '~> 2.0.1'
+gem 'mini_magick', '~>4.9.5'
 gem 'figaro', '~>1.1.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 4.0'
@@ -66,6 +67,7 @@ end
 
 group :production do
   gem 'pg', '1.1.4'
+  gem 'fog', '~> 2.2.0'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
