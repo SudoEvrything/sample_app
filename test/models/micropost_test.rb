@@ -2,7 +2,7 @@ require 'test_helper'
 
 class MicropostTest < ActiveSupport::TestCase
 
-  def setupinclude ActionDispatch::TestProcess"include ActionDispatch::TestProcess"
+  def setup
   	@user = users(:michael)
 
   	@micropost = @user.microposts.build(content: "Lorem ipsum")
