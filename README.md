@@ -1,41 +1,15 @@
-# Ruby on Rails Tutorial sample application
+# Mini Twitter
 
-This is the sample application for
-[*Ruby on Rails Tutorial:
-Learn Web Development with Rails*](https://www.railstutorial.org/)
-by [Michael Hartl](http://www.michaelhartl.com/).
+This is an Twitter like Web App written in Ruby on Rails
 
-## License
+1. Users can sign up, follow each other and recieve followers feeds on their homepage.
 
-All source code in the [Ruby on Rails Tutorial](https://www.railstutorial.org/)
-is available jointly under the MIT License and the Beerware License. See
-[LICENSE.md](LICENSE.md) for details.
+2.Use BCrypt digest for password authentication and base64 for persistent cookies(remember me).
 
-## Getting started
+3. Use SQLite3 for development environment and deployed with PosrtgreSQL.
 
-To get started with the app, clone the repo and then install the needed gems:
+4. Using Gmail SMTP sever currently in beta.
 
-```
-$ bundle install --without production
-```
+5. Medium size scaling
 
-Next, migrate the database:
-
-```
-$ rails db:migrate
-```
-
-Finally, run the test suite to verify that everything is working correctly:
-
-```
-$ rails test
-```
-
-If the test suite passes, you'll be ready to run the app in a local server:
-
-```
-$ rails server
-```
-
-For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+https://lungkungakao.herokuapp.com/
