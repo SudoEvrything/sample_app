@@ -8,7 +8,7 @@ gem 'rails', '~> 6.0.0'
 #Responsive design and less CSS to Sass
 gem 'bootstrap-sass', '3.4.1'
 # Use Puma as the app server
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5'
 gem 'uglifier', '~> 4.1.20'
